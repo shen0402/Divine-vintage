@@ -7,7 +7,7 @@
   flu.chunks = {
     photoswipe: "{{ 'photoswipe-chunk.js' | asset_url }}",
     swiper: "{{ 'swiper-chunk.js' | asset_url }}",
-    nouislider: "{{ 'nouislider-chunk.js' | asset_url }}",
+    nouislider: "{{ 'nouislider-chunk.js' | asset_url }}"
   }
 </script>
 
@@ -26,10 +26,13 @@
 {% if useCustomEvents %}
   <script src="{{ 'custom-events.js' | asset_url }}" defer></script>
 {% endif %}
+<script src="{{ 'custom.js' | asset_url }}" defer></script>
 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script>
-  var defineVH = function () { document.documentElement.style.setProperty("--vh", (window.innerHeight * 0.01) + "px"); };
+  var defineVH = function() {
+    document.documentElement.style.setProperty("--vh", (window.innerHeight * 0.01) + "px");
+  };
   window.addEventListener('resize', defineVH);
   window.addEventListener('orientationchange', defineVH);
   defineVH();

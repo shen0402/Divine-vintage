@@ -8,7 +8,11 @@
 -%}
 
 {%- capture form_classes -%}
-  product-form product-form-{{ section.id }}
+  {%- if product.metafields.custom.subscription_3_months != blank -%}
+    product-form product-form-{{ section.id }} subscription-variant
+  {%- else -%}
+    product-form product-form-{{ section.id }}
+  {% endif %}
 {%- endcapture -%}
 
 {% form 'product',
@@ -97,26 +101,80 @@
     make sure you hide the option inputs declared above, like we do with the
     `.js-enabled` class which only shows its contents when JS is enabled.
   {% endcomment %}
-  <div class="product-form__variants">
-    <select
-      name="id" data-productid="{{ product.id }}"
-      class="input"
-      id="variant-selector"
-      data-variant-select
-    >
-      {%- for variant in product.variants -%}
-        <option
-          value="{{ variant.id }}"
-          {%- if variant == current_variant -%}
-            selected="selected"
-          {%- endif -%}
-        >
-          {{ variant.title }}
-          {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
-        </option>
-      {%- endfor -%}
-    </select>
-  </div>
+
+  {%- if product.metafields.custom.subscription_3_months != blank -%}
+    <variant-radios-subscribe>
+      <fieldset class="proudct-form__input">
+        <legend class="form__label">{{ section.settings.sub_heading }}</legend>
+        <p class="form__label_desc">{{ section.settings.sub_desc }}</p>
+        {%- for i in (0..3) -%}
+          {%- case i -%}
+            {%- when 0 -%}
+              {% assign subproduct = product %}
+              {% assign subtitle = section.settings.sub_1_title %}
+              {% assign subdesc = section.settings.sub_1_desc %}
+            {%- when 1 -%}
+              {% assign subproduct = all_products[product.metafields.custom.subscription_3_months] %}
+              {% assign subtitle = section.settings.sub_3_title %}
+              {% assign subdesc = section.settings.sub_3_desc %}
+            {%- when 2 -%}
+              {% assign subproduct = all_products[product.metafields.custom.subscription_6_months] %}
+              {% assign subtitle = section.settings.sub_6_title %}
+              {% assign subdesc = section.settings.sub_6_desc %}
+            {%- when 3 -%}
+              {% assign subproduct = all_products[product.metafields.custom.subscription_12_months] %}
+              {% assign subtitle = section.settings.sub_12_title %}
+              {% assign subdesc = section.settings.sub_12_desc %}
+          {%- endcase -%}
+
+          {% assign selling_plan_group = subproduct.selling_plan_groups | first %}
+          {% assign selling_plan = selling_plan_group.selling_plans | first %}
+          <div class="variant-subscription" data-product-handle="{{ subproduct.handle }}">
+            <input type="radio" id="template--{{ selling_plan.id }}" name="selling_plan" value="{{ selling_plan.id }}" class="variant-subscription__input" data-product-handle="{{ subproduct.handle }}" data-subproduct-id="{{ subproduct.id }}" data-subvariant-id="{{ subproduct.selected_or_first_available_variant.id }}" data-subproudct-available="{{ subproduct.selected_or_first_available_variant.available }}" {% if forloop.first %}checked{% endif %}>
+            <label for="template--{{ selling_plan.id }}" data-selling-plan-id="{{ selling_plan.id }}" data-subproduct-id="{{ subproduct.selected_or_first_available_variant.id }}" class="variant-subscription__label">
+              <div class="variant-subscription__container">
+                <div class="variant-subscription__header">
+                  <div class="variant-subscription__heading">
+                    <h4>{{ subtitle }}</h4>
+                  </div>
+                  <div class="variant-subscription__price">
+                    <p>{{ subproduct.price | money }}</p>
+                  </div>
+                </div>
+                <div class="variant-subscription__body">
+                  <p>{{ subdesc }}</p>
+                </div>
+              </div>
+            </label>
+          </div>
+        {%- endfor -%}
+      </fieldset>
+    </variant-radios-subscribe>
+    {% assign selling_plan_group = product.selling_plan_groups | first %}
+    {% assign selling_plan = selling_plan_group.selling_plans | first %}
+    <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}" class="sub-variant--id">
+  {% else %}
+    <div class="product-form__variants">
+      <select
+        name="id" data-productid="{{ product.id }}"
+        class="input"
+        id="variant-selector"
+        data-variant-select
+      >
+        {%- for variant in product.variants -%}
+          <option
+            value="{{ variant.id }}"
+            {%- if variant == current_variant -%}
+              selected="selected"
+            {%- endif -%}
+          >
+            {{ variant.title }}
+            {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
+          </option>
+        {%- endfor -%}
+      </select>
+    </div>
+  {% endif %}
 
   <div
     class="product-form__controls-group product-form__controls-group--submit"
@@ -141,6 +199,7 @@
         data-lang-available="{{ product_available_label }}"
         data-lang-unavailable="{{ 'product.unavailable' | t }}"
         data-lang-sold-out="{{ 'product.sold_out' | t }}"
+        {%- if product.metafields.custom.subscription_3_months != blank -%}subscription-add-to-cart{% endif %}
       >
         <span data-add-to-cart-text>
           {%- unless current_variant.available -%}
