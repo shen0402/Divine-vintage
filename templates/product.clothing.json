@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": true,
+            "show_vendor": true,
+            "show_sku": true,
+            "show_discount": true,
+            "discount_format": "percent_off",
+            "show_product_rating": false,
+            "show_sale_badge": true,
+            "show_custom_badges": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "text_font_class": "fs-body-75",
+            "column_placement": "right",
+            "display_as_collapsible_row": false,
+            "expand_by_default": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "Size",
+            "variant_popup_icon": "measuring-tape",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "small",
+            "chip_layout": "natural"
+          }
+        },
+        "product_callouts-1": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "Wine facts:",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "heart",
+            "text_1": "<p><strong>Grape Type -<\/strong> {{ product.metafields.custom.grape_type.value }}<\/p>",
+            "icon_2": "clothes-button",
+            "text_2": "<p><strong>Region -<\/strong> {{ product.metafields.custom.wine_region.value }}<\/p>",
+            "icon_3": "bottle",
+            "text_3": "<p><strong>Style -<\/strong> {{ product.metafields.custom.wine_style.value }}<\/p>",
+            "icon_4": "hand-washing",
+            "text_4": "<p><strong>Pairing -<\/strong> {{ product.metafields.custom.wine_pairing.value }}<\/p>",
+            "icon_5": "globe",
+            "text_5": "<p><strong>Origin -<\/strong> {{ product.metafields.custom.wine_origin | metafield_tag }}<\/p>",
+            "icon_6": "sunflower",
+            "text_6": "<p><strong>Type - <\/strong>{{ product.metafields.custom.wine_type.value }}<\/p>",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "inventory_counter": {
+          "type": "inventory-counter",
+          "disabled": true,
+          "settings": {
+            "label": "Availability",
+            "inventory_max": "{{ product.metafields.custom.inventory_base_quantity.value }}",
+            "low_inventory_threshold": "10",
+            "show_status_bar": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "3dde09ba-7832-43e6-a214-1e6ace179fc4": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p>{{ product.metafields.custom.model.value }}<\/p><p><\/p>",
+            "column_placement": "right"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "54d1812c-4074-4ee0-b3c0-41b2eae7d364": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "Shipping & Returns",
+            "content": "<p><strong>Shipping <\/strong>we offer free 3 day shipping on all products.<br\/>Next day shipping is available at an additional cost and may be calculated at checkout.ollapsible row content here.<\/p><p><strong>Free Returns<\/strong> on all items if returned unworn in original packing including all labels. We regret that we can not accept returns on items that have been used. If you are unhappy with your purchase or would like to return item, contact us and we will arrange pickup at our cost.<\/p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_header",
+        "description",
+        "variant_picker",
+        "product_callouts-1",
+        "quantity_selector",
+        "inventory_counter",
+        "buy_buttons",
+        "3dde09ba-7832-43e6-a214-1e6ace179fc4",
+        "share",
+        "54d1812c-4074-4ee0-b3c0-41b2eae7d364"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": true,
+        "show_navigation_buttons": false,
+        "gallery_style": "thumbnails",
+        "gallery_size": "small",
+        "gallery_overflow": "never",
+        "enable_video_looping": false,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "portrait",
+        "enable_animation": true
+      }
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "settings": {
+        "title": "YOU MAY ALSO LIKE",
+        "subheading": "",
+        "maximum_products": 8,
+        "columns": "5",
+        "mobile_columns": "2",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "7286e5a9-de27-4182-a226-bb326477b59a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations",
+    "7286e5a9-de27-4182-a226-bb326477b59a"
+  ]
+}

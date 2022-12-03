@@ -1,0 +1,70 @@
+{% capture content %}
+  <div
+    class="product__callouts-items"
+    data-with-box="{{ block_settings.add_box }}"
+    data-with-dividers="{{ block_settings.add_dividers }}"
+  >
+    {%
+      render 'product-block-callouts-item' with
+      text: block_settings.text_1,
+      icon: block_settings.icon_1,
+      custom_icon_image: block_settings.custom_icon_image_1,
+      meta: 'grape_type'
+    %}
+    {%
+      render 'product-block-callouts-item' with
+      text: block_settings.text_2,
+      icon: block_settings.icon_2,
+      custom_icon_image: block_settings.custom_icon_image_2,
+      meta: 'region'
+    %}
+    {%
+      render 'product-block-callouts-item' with
+      text: block_settings.text_3,
+      icon: block_settings.icon_3,
+      custom_icon_image: block_settings.custom_icon_image_3,
+      meta: 'style'
+    %}
+    {%
+      render 'product-block-callouts-item' with
+      text: block_settings.text_4,
+      icon: block_settings.icon_4,
+      custom_icon_image: block_settings.custom_icon_image_4,
+      meta: 'pairing'
+    %}
+    {%
+      render 'product-block-callouts-item' with
+      text: block_settings.text_5,
+      icon: block_settings.icon_5,
+      custom_icon_image: block_settings.custom_icon_image_5,
+      meta: 'origin'
+    %}
+    {%
+      render 'product-block-callouts-item' with
+      text: block_settings.text_6,
+      icon: block_settings.icon_6,
+      custom_icon_image: block_settings.custom_icon_image_6,
+      meta: 'type'
+    %}
+  </div>
+{% endcapture %}
+
+{% if block_settings.display_as_collapsible_row %}
+  {%-
+    render 'product-block-accordion' with
+    block: block,
+    block_settings: block.settings,
+    heading: block.settings.title,
+    content: content,
+  -%}
+{% else %}
+  <div
+    class="product__block product__block-callouts product__callouts product__block--medium"
+    {{ block.shopify_attributes }}
+  >
+    {%- if block.settings.title != blank -%}
+      <h3 class="ff-heading fs-heading-5-base">{{ block.settings.title }}</h3>
+    {%- endif -%}
+    {{ content }}
+  </div>
+{% endif %}

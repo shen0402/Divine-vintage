@@ -1,0 +1,393 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 30,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "sales-banner": {
+      "type": "sales-banner",
+      "settings": {
+        "min_height": 500,
+        "min_height_mobile": 500,
+        "sale_type": "Friday",
+        "sale_amount": "Sale",
+        "sale_unit": "none",
+        "terms_and_conditions": "Optional note",
+        "sale_font_size": 150,
+        "sale_font_size_mobile": 150,
+        "currency_symbol_position": "before",
+        "heading": "Announce your sale",
+        "heading_font_class": "fs-heading-3-base",
+        "text": "<p>Highlight sale campaigns, discounts, and promotions.<\/p>",
+        "link": "",
+        "link_text": "Button",
+        "button_style": "btn--secondary",
+        "link_2": "",
+        "link_text_2": "Button",
+        "button_style_2": "btn--secondary",
+        "focal_point": "center",
+        "mobile_focal_point": "center",
+        "text_color": "#FFFFFF",
+        "button_background_color": "#FFFFFF",
+        "button_text_color": "#000000",
+        "background_color": "#C51C26",
+        "color_overlay": "#000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "show_frame": false,
+        "full_width": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "collection-list-grid": {
+      "type": "collection-list-grid",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_list": [],
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "solid",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#c51c26",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "accent",
+          "settings": {}
+        },
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-200"
+          }
+        },
+        "block-3": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-4": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "aspect_ratio": "natural",
+        "focal_point": "center",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "block-0": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "small_caption": "Sale Collection",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "button_style": "btn--callout"
+          }
+        },
+        "block-1": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "Sale Collection",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "button_style": "btn--callout"
+          }
+        },
+        "block-2": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "Sale Collection",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "button_style": "btn--callout"
+          }
+        },
+        "block-3": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "Sale Collection",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "button_style": "btn--callout"
+          }
+        },
+        "block-4": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "Sale Collection",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "button_style": "btn--callout"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "large",
+        "columns": "5",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 16,
+        "row_spacing_mobile": 36,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "grid": {
+      "type": "grid",
+      "blocks": {
+        "block-0": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 360,
+            "media_fit": "cover",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "flex-start_flex-end",
+            "accent": "Sale",
+            "title": "Product Name",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Save 50% on this best seller<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_text": "Shop Now",
+            "button_style": "btn--primary",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "button_background_color": "#e12c00",
+            "button_text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 30
+          }
+        },
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 360,
+            "media_fit": "cover",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "flex-start_flex-end",
+            "accent": "Sale",
+            "title": "Product Name",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Save 50% on this best seller<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_text": "Shop now",
+            "button_style": "btn--primary",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "button_background_color": "#e12c00",
+            "button_text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 30
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 360,
+            "media_fit": "cover",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "flex-start_flex-end",
+            "accent": "Sale",
+            "title": "Product Name",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Save 50% on this best seller<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_text": "SHop now",
+            "button_style": "btn--primary",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "button_background_color": "#e12c00",
+            "button_text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "enable_animation": true,
+        "full_width": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns": "4",
+        "rows": "4",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "collapse_filter_bar": false,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "3col",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "sales-banner",
+    "collection-list-grid",
+    "image-with-text",
+    "multi-column",
+    "grid",
+    "product-grid"
+  ]
+}

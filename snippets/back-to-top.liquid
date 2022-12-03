@@ -1,0 +1,18 @@
+{% if settings.enable_back_to_top %}
+  <div
+    class="
+      back-to-top
+      back-to-top--{{ settings.back_to_top_position }}
+    "
+    data-back-to-top
+  >
+    <button
+      type="button"
+      class="back-to-top__button"
+      aria-label="{{ 'general.accessibility.back_to_top' | t }}"
+      data-back-to-top-button
+    >
+      {% render 'icon' with icon: 'chevron' %}
+    </button>
+  </div>
+{% endif %}

@@ -1,0 +1,270 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "c967acbf-aabd-4bf9-9cde-58d606e1cd24": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3534.jpg",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "Divine Vintage Wine Club",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "c967acbf-aabd-4bf9-9cde-58d606e1cd24"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 100,
+        "enable_autoplay": false,
+        "duration_autoplay": 6,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#ffffff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "none"
+      }
+    },
+    "b0a5b12b-ca6f-4bc9-b561-8136a9090d8b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16648765538526__b0a5b12b-ca6f-4bc9-b561-8136a9090d8b-1669778048b27bb077-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Welcome To the club",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "template--16648765538526__b0a5b12b-ca6f-4bc9-b561-8136a9090d8b-1669778048b27bb077-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--16648765538526__b0a5b12b-ca6f-4bc9-b561-8136a9090d8b-1669778048b27bb077-0",
+        "template--16648765538526__b0a5b12b-ca6f-4bc9-b561-8136a9090d8b-1669778048b27bb077-1"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "8572cd91-76a4-4d6b-955e-ddc004dd1c0b": {
+      "type": "grid",
+      "blocks": {
+        "template--16648765538526__8572cd91-76a4-4d6b-955e-ddc004dd1c0b-16697780159d56392b-0": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 580,
+            "mobile_height": 500,
+            "media_fit": "cover",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Chianti Classico Rocca di Montegrossi 2019",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "<p>Perfect for lookbooks and editorial photography<\/p>",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify:\/\/products\/chianti-classico-rocca-di-montegrossi-2019",
+            "link_text": "Buy Now",
+            "button_style": "btn--primary",
+            "background_color": "#81bba1",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16648765538526__8572cd91-76a4-4d6b-955e-ddc004dd1c0b-16697780159d56392b-1": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 580,
+            "mobile_height": 500,
+            "media_fit": "cover",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Pouilly Fume Jean-Max Roger 2021",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "<p>Perfect for lookbooks and editorial photography<\/p>",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify:\/\/products\/jean-max-roger-pouilly-fume-cuvee-les-alouettes-2021",
+            "link_text": "Buy Now",
+            "button_style": "btn--primary",
+            "background_color": "#dc713e",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--16648765538526__8572cd91-76a4-4d6b-955e-ddc004dd1c0b-16697780159d56392b-0",
+        "template--16648765538526__8572cd91-76a4-4d6b-955e-ddc004dd1c0b-16697780159d56392b-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "content_alignment": "center",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 36,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "513dbec5-2f4a-41bb-9ad2-01f1838c20b8": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16648765538526__513dbec5-2f4a-41bb-9ad2-01f1838c20b8-1669778070c5efa7a4-0": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Column",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "template--16648765538526__513dbec5-2f4a-41bb-9ad2-01f1838c20b8-1669778070c5efa7a4-1": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Column",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "template--16648765538526__513dbec5-2f4a-41bb-9ad2-01f1838c20b8-1669778070c5efa7a4-2": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Column",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "template--16648765538526__513dbec5-2f4a-41bb-9ad2-01f1838c20b8-1669778070c5efa7a4-3": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Column",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16648765538526__513dbec5-2f4a-41bb-9ad2-01f1838c20b8-1669778070c5efa7a4-0",
+        "template--16648765538526__513dbec5-2f4a-41bb-9ad2-01f1838c20b8-1669778070c5efa7a4-1",
+        "template--16648765538526__513dbec5-2f4a-41bb-9ad2-01f1838c20b8-1669778070c5efa7a4-2",
+        "template--16648765538526__513dbec5-2f4a-41bb-9ad2-01f1838c20b8-1669778070c5efa7a4-3"
+      ],
+      "settings": {
+        "title": "Why Join the club",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "large",
+        "columns": "4",
+        "column_spacing": 20,
+        "row_spacing": 12,
+        "column_alignment": "center",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "#ffffe3",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow",
+    "b0a5b12b-ca6f-4bc9-b561-8136a9090d8b",
+    "8572cd91-76a4-4d6b-955e-ddc004dd1c0b",
+    "513dbec5-2f4a-41bb-9ad2-01f1838c20b8"
+  ]
+}

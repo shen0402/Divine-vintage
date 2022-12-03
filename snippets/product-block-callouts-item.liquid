@@ -1,0 +1,50 @@
+{% assign meta_text = '' %}
+
+{% case meta %}
+  {% when 'grape_type' %}
+    {%  if product.metafields.custom.grape_type.value != blank %}
+      {% assign meta_text = "Grape Type - " | append: product.metafields.custom.grape_type.value %}
+    {% endif %}
+  {% when 'region' %}
+    {%  if product.metafields.custom.wine_region.value != blank %}
+      {% assign meta_text = "Region - " | append: product.metafields.custom.wine_region.value %}
+    {% endif %}
+  {% when 'style' %}
+    {%  if product.metafields.custom.wine_style != blank and product.metafields.custom.wine_style.value != blank and product.metafields.custom.wine_style.value != '' %}
+      {% assign meta_text = "Style - " | append: product.metafields.custom.wine_style.value %}
+    {% endif %}
+  {% when 'pairing' %}
+    {%  if product.metafields.custom.wine_pairing.value != blank %}
+      {% assign meta_text = "Pairing - " | append: product.metafields.custom.wine_pairing.value %}
+    {% endif %}
+  {% when 'origin' %}
+    {%  if product.metafields.custom.wine_origin.value != blank %}
+      {% assign meta_text = "Origin - " | append: product.metafields.custom.wine_origin.value %}
+    {% endif %}
+  {% when 'type' %}
+    {%  if product.metafields.custom.wine_type.value != blank %}
+      {% assign meta_text = "Type - " | append: product.metafields.custom.wine_type.value %}
+    {% endif %}
+{% endcase %}
+<div style="display:none">
+  {{ meta_text }} <br>
+</div>
+{% if meta_text != '' %}
+  <div class="product__callouts-item fs-body-75" data-meta="{{ meta }}">
+    {%- if custom_icon_image != blank -%}
+      {%-
+        render 'image' with
+        wrapper_class: "product__callouts-item-icon",
+        image: custom_icon_image,
+        sizes: "32px",
+      -%}
+    {%- else -%}
+      {% if icon and icon != 'none' %}
+        {% render 'icon-editorial' with class: "product__callouts-item-icon", icon: icon %}
+      {% endif %}
+    {%- endif -%}
+    <div class="product__callouts-item-text rte">
+      {{ meta_text }}
+    </div>
+  </div>
+{% endif %}

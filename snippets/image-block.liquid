@@ -1,0 +1,31 @@
+{% capture sizes %}(min-width: {{ break_to_mobile_at }}px) {{ width }}px, {{ mobile_width }}px{% endcapture %}
+{%- liquid
+  if align_mobile == nil
+    assign align_mobile = align
+  endif
+-%}
+<div
+  class="
+    image-block
+    image-block--justify-{{ align }}
+    image-block--justify-mobile-{{ align_mobile }}
+    image-block--break-to-mobile-at-{{ break_to_mobile_at }}
+    {% if full_width == true %}image-block--full-width{% endif %}
+    {{ wrapper_class }}
+  "
+  style="
+    --image-block-max-width: {{ width }}px;
+    --image-block-max-width-mobile: {{ mobile_width }}px;
+  "
+  {{ shopify_attributes }}
+>
+  <div class="image-block__inner">
+    {%-
+      render 'image' with
+      image: image,
+      sizes: sizes,
+      include_placeholder: true,
+      placeholder_natural_fallback_ratio: 'landscape'
+    -%}
+  </div>
+</div>

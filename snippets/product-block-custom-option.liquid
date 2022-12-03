@@ -1,0 +1,102 @@
+<div
+  class="product__controls-group product__controls-group--{{ field_type }} product__block product__block--medium"
+  {{ block.shopify_attributes }}
+>
+  {%- if field_type == 'text' or field_type == 'textarea' or field_type == 'list' -%}
+    <div class="product__label-wrapper">
+      <label for="{{ block.settings.label }}--{{ block.id }}" class="product__label fs-body-100">
+        {{ block.settings.label }}:
+      </label>
+    </div>
+  {%- endif -%}
+
+  {%- if block.settings.instructions != blank and field_type == 'list' -%}
+    <div class="product__custom-option-instructions rte rte--product fs-body-75 t-opacity-70">
+      {{ block.settings.instructions }}
+    </div>
+  {%- endif -%}
+
+  <div class="product__custom-option product__custom-option-type--{{ field_type }}">
+    {%- case field_type -%}
+      {%- when 'text' -%}
+        <input
+          id="{{ block.settings.label }}--{{ block.id }}"
+          type="text"
+          class="input"
+          placeholder="{{ block.settings.placeholder }}"
+          aria-label="{{ block.settings.label }}"
+          data-custom-option-input="{{ block.id }}"
+        >
+      {%- when 'textarea' -%}
+        <textarea
+          id="{{ block.settings.label }}--{{ block.id }}"
+          class="input"
+          rows="3"
+          placeholder="{{ block.settings.placeholder }}"
+          aria-label="{{ block.settings.label }}"
+          data-custom-option-input="{{ block.id }}"
+        ></textarea>
+      {%- when 'checkbox' -%}
+        <label class="product__custom-option-checkbox-content">
+          <input
+            type="checkbox"
+            class="product__custom-option-checkbox visually-hidden"
+            value="{{ block.settings.checked_value }}"
+            data-custom-option-input="{{ block.id }}"
+          >
+          <div class="product__custom-option-content-inner">
+            <div class="product__custom-option-input">
+              {% render 'icon' with icon: 'checkmark' %}
+            </div>
+            <span class="product__custom-option-label fs-body-100">
+              {{ block.settings.label }}
+            </span>
+          </div>
+        </label>
+      {%- when 'list' -%}
+        {%- assign list_options = block.settings.list_options | split: ', ' -%}
+        {%- if block.settings.list_style == 'dropdown' -%}
+          <div class="select-wrapper">
+            <select
+              id="{{ block.settings.label }}--{{ block.id }}"
+              name="{{ block.settings.label }}"
+              class="input"
+              data-custom-option-input="{{ block.id }}"
+            >
+              {%- for option in list_options -%}
+                <option>{{ option }}</option>
+              {%- endfor -%}
+            </select>
+            {% render 'icon' with icon: 'chevron-small' %}
+          </div>
+        {%- elsif block.settings.list_style == 'radio' -%}
+          {%- for option in list_options -%}
+            <label class="product__custom-option-radio-content">
+              <input
+                type="radio"
+                name="{{ block.settings.label }}"
+                {% if forloop.first %}
+                  checked="checked"
+                {% endif %}
+                class="product__custom-option-radio visually-hidden"
+                value="{{ option }}"
+                data-custom-option-input="{{ block.id }}"
+              >
+              <div class="product__custom-option-content-inner">
+                <div class="product__custom-option-input">
+                  <div class="indicator"></div>
+                </div>
+                <span class="product__custom-option-label fs-body-100">{{ option }}</span>
+              </div>
+            </label>
+          {%- endfor -%}
+        {%- endif -%}
+    {%- endcase -%}
+  </div>
+
+  {%- if block.settings.instructions != blank and field_type != 'list' -%}
+    <div class="product__custom-option-instructions rte rte--product fs-body-75 t-opacity-70">
+      {{ block.settings.instructions }}
+    </div>
+  {%- endif -%}
+</div>

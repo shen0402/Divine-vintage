@@ -1,0 +1,685 @@
+{
+  "sections": {
+    "de242182-daf8-4317-af60-9ae165f632aa": {
+      "type": "image-hero",
+      "blocks": {
+        "template--16574836539614__de242182-daf8-4317-af60-9ae165f632aa-166803173305484def-0": {
+          "type": "accent",
+          "settings": {
+            "accent": ""
+          }
+        },
+        "template--16574836539614__de242182-daf8-4317-af60-9ae165f632aa-166803173305484def-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--16574836539614__de242182-daf8-4317-af60-9ae165f632aa-166803173305484def-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "a2d98d8d-06fa-47d1-bc4d-5e3f86493274": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "template--16574836539614__de242182-daf8-4317-af60-9ae165f632aa-166803173305484def-0",
+        "template--16574836539614__de242182-daf8-4317-af60-9ae165f632aa-166803173305484def-1",
+        "template--16574836539614__de242182-daf8-4317-af60-9ae165f632aa-166803173305484def-2",
+        "a2d98d8d-06fa-47d1-bc4d-5e3f86493274"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 100,
+        "image": "shopify:\/\/shop_images\/bannerimage.jpg",
+        "focal_point": "center",
+        "mobile_focal_point": "center",
+        "media_link": "shopify:\/\/collections",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "aa591519-79c7-430c-b894-f6034f39ab10": {
+      "type": "video-hero",
+      "disabled": true,
+      "blocks": {
+        "template--16574836539614__aa591519-79c7-430c-b894-f6034f39ab10-1665432138a07c21e9-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Fortune Favors The Kind",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--16574836539614__aa591519-79c7-430c-b894-f6034f39ab10-1665432138a07c21e9-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How Wine Is Made<\/p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "template--16574836539614__aa591519-79c7-430c-b894-f6034f39ab10-1665432138a07c21e9-1",
+        "template--16574836539614__aa591519-79c7-430c-b894-f6034f39ab10-1665432138a07c21e9-2"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 65,
+        "mobile_height": 100,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=7gquYRxLMFI",
+        "media_link": "https:\/\/www.youtube.com\/watch?v=7gquYRxLMFI",
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "1655855477ee9538e0": {
+      "type": "countdown-bar",
+      "disabled": true,
+      "settings": {
+        "min_height": 60,
+        "min_height_mobile": 60,
+        "year": 2022,
+        "month": "january",
+        "day": "1",
+        "hour": "0",
+        "minute": "0",
+        "hide_timer_on_complete": false,
+        "timer_complete_message": "",
+        "heading": "Countdown bar",
+        "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
+        "link": "shopify:\/\/collections",
+        "link_text": "Button",
+        "button_style": "btn--secondary",
+        "focal_point": "center",
+        "mobile_focal_point": "center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "background_color": "#c51c26",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "full_width": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "16549177944ec2347e": {
+      "type": "rich-text",
+      "blocks": {
+        "1654917794cdc0bc3c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "WINE & TREASURES",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "1654917794cdc0bc3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your destination for the most divine vintage, beautiful wines, and bespoke wine education.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "1654917794cdc0bc3c-0",
+        "1654917794cdc0bc3c-1"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 650
+      }
+    },
+    "1654878022d8e24a9a": {
+      "type": "grid",
+      "blocks": {
+        "165487802257d72399-2": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 680,
+            "mobile_height": 360,
+            "image": "shopify:\/\/shop_images\/white_banner.jpg",
+            "media_fit": "contain",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "SHOP",
+            "title": "WHITE",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--callout",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#995771",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 18%, rgba(153, 87, 113, 1) 74%)",
+            "overlay_opacity": 0
+          }
+        },
+        "165487802257d72399-1": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 680,
+            "mobile_height": 360,
+            "image": "shopify:\/\/shop_images\/red_banner.jpg",
+            "media_fit": "contain",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "SHOP",
+            "title": "REDS",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--callout",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#995771",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 18%, rgba(153, 87, 113, 1) 74%)",
+            "overlay_opacity": 0
+          }
+        },
+        "165487802257d72399-0": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "width": "33",
+            "height": 600,
+            "mobile_height": 360,
+            "image": "shopify:\/\/shop_images\/the-new-york-public-library-3yTft26WbtY-unsplash.jpg",
+            "media_fit": "cover",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "flex-start_flex-end",
+            "accent": "",
+            "title": "Rosés",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "<p>Perfect for lookbooks and editorial photography<\/p>",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--callout",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#995771",
+            "button_text_color": "#000000",
+            "color_overlay": "#995771",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 18%, rgba(153, 87, 113, 1) 74%)",
+            "overlay_opacity": 63
+          }
+        }
+      },
+      "block_order": [
+        "165487802257d72399-2",
+        "165487802257d72399-1",
+        "165487802257d72399-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 24,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1655855558c1ac2348": {
+      "type": "featured-collection-slider",
+      "disabled": true,
+      "blocks": {
+        "16558555587b915de6-0": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "womens",
+            "collection_name": "Women"
+          }
+        },
+        "16558555587b915de6-1": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "mens",
+            "collection_name": "Men"
+          }
+        }
+      },
+      "block_order": [
+        "16558555587b915de6-0",
+        "16558555587b915de6-1"
+      ],
+      "settings": {
+        "heading": "GET READY FOR FALL",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16548772614c49ba39": {
+      "type": "featured-collection-slider",
+      "disabled": true,
+      "blocks": {
+        "767ac6c0-8826-4284-bd74-6eb8a441d7bc": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "",
+            "collection_name": "Collection"
+          }
+        }
+      },
+      "block_order": [
+        "767ac6c0-8826-4284-bd74-6eb8a441d7bc"
+      ],
+      "settings": {
+        "heading": "Featured collection",
+        "subheading": "",
+        "link": "",
+        "link_text": "View all products",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1663036366f2e1201c": {
+      "type": "featured-collection-slider",
+      "disabled": true,
+      "blocks": {
+        "1663036366af35e2e1-0": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "",
+            "collection_name": "First collection"
+          }
+        },
+        "1663036366af35e2e1-1": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "",
+            "collection_name": "Second collection"
+          }
+        }
+      },
+      "block_order": [
+        "1663036366af35e2e1-0",
+        "1663036366af35e2e1-1"
+      ],
+      "settings": {
+        "heading": "Featured collection",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16558561315f6147d3": {
+      "type": "sales-banner",
+      "disabled": true,
+      "settings": {
+        "min_height": 300,
+        "min_height_mobile": 500,
+        "sale_type": "Save",
+        "sale_amount": "20",
+        "sale_unit": "percent",
+        "terms_and_conditions": "* members only",
+        "sale_font_size": 150,
+        "sale_font_size_mobile": 150,
+        "currency_symbol_position": "before",
+        "heading": "Join the Club",
+        "heading_font_class": "fs-heading-3-base",
+        "text": "<p>Highlight sale campaigns, discounts, and promotions.<\/p>",
+        "link": "shopify:\/\/collections",
+        "link_text": "Button",
+        "button_style": "btn--primary",
+        "link_2": "shopify:\/\/collections",
+        "link_text_2": "Button",
+        "button_style_2": "btn--secondary",
+        "image": "shopify:\/\/shop_images\/birmingham-museums-trust-O-ul43_Z9es-unsplash.jpg",
+        "focal_point": "top",
+        "mobile_focal_point": "center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ddf3d3",
+        "button_text_color": "#000000",
+        "background_color": "#995771",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 21,
+        "enable_animation": true,
+        "show_frame": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "1663031865ded4d8f5": {
+      "type": "rich-text",
+      "blocks": {
+        "1663031865ffb50352-0": {
+          "type": "heading",
+          "settings": {
+            "title": "DIVINE VINTAGE",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "1663031865ffb50352-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our truly unparalled selection of vintage clothing and accessories.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "1663031865ffb50352-0",
+        "1663031865ffb50352-1"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-only",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "1655747757d7226f15": {
+      "type": "grid",
+      "blocks": {
+        "e866e078-81cd-4f2b-8678-817de7dc830a": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 540,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/women.jpg",
+            "media_fit": "contain",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "SHOP",
+            "title": "WOMEN",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify:\/\/collections\/womens",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(0deg, rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)",
+            "overlay_opacity": 0
+          }
+        },
+        "c51c0355-4ad0-4933-b13d-f827c724bcf5": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 540,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/accessories2.jpg",
+            "media_fit": "contain",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "SHOP",
+            "title": "ACCESSORIES",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify:\/\/collections\/accessories",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "c832af30-0b0e-4968-9284-ab8633c9a7c3": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/dresses_ee7eb81a-31f7-438e-97ad-c5daf4866c6f.jpg",
+            "media_fit": "contain",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "SHOP MEN",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify:\/\/collections\/mens",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "radial-gradient(rgba(253, 0, 0, 1), rgba(202, 168, 9, 1) 100%)",
+            "overlay_opacity": 0
+          }
+        },
+        "765a5e2e-93df-44f3-aa92-3c26e95174c2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify:\/\/shop_images\/sandy-millar-8128ZpwQiCQ-unsplash.jpg",
+            "media_fit": "cover",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Shop Shoes",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "<p>Perfect for lookbooks and editorial photography<\/p>",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "e866e078-81cd-4f2b-8678-817de7dc830a",
+        "c51c0355-4ad0-4933-b13d-f827c724bcf5",
+        "c832af30-0b0e-4968-9284-ab8633c9a7c3",
+        "765a5e2e-93df-44f3-aa92-3c26e95174c2"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 18,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "165489980473ecbf41": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1654899804e4fc48ec-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Drink with us!",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "1654899804e4fc48ec-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Use these sections to promote a particular feature with editorial photography",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "1654899804e4fc48ec-2": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "1654899804e4fc48ec-0",
+        "1654899804e4fc48ec-1",
+        "1654899804e4fc48ec-2"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify:\/\/shop_images\/europeana-BQrcIDVurDk-unsplash.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "center",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify:\/\/shop_images\/My_project_6.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16558563969f2c9cec": {
+      "type": "promotion-bar",
+      "disabled": true,
+      "settings": {
+        "min_height": 60,
+        "min_height_mobile": 60,
+        "heading": "Announce your sale",
+        "text": "<p>Highlight sale campaigns, discounts, and promotions.<\/p>",
+        "link": "shopify:\/\/collections",
+        "link_text": "Button",
+        "button_style": "btn--secondary",
+        "focal_point": "center",
+        "mobile_focal_point": "center",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#000000",
+        "background_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "full_width": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    }
+  },
+  "order": [
+    "de242182-daf8-4317-af60-9ae165f632aa",
+    "aa591519-79c7-430c-b894-f6034f39ab10",
+    "1655855477ee9538e0",
+    "16549177944ec2347e",
+    "1654878022d8e24a9a",
+    "1655855558c1ac2348",
+    "16548772614c49ba39",
+    "1663036366f2e1201c",
+    "16558561315f6147d3",
+    "1663031865ded4d8f5",
+    "1655747757d7226f15",
+    "165489980473ecbf41",
+    "16558563969f2c9cec"
+  ]
+}

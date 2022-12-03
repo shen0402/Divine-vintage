@@ -1,0 +1,65 @@
+/* Use this file to add custom css to the theme. */
+
+h1, h2,
+.rte h1, .rte h2,
+.shopify-policy__body h1, .shopify-policy__body h2,
+h1.ff-heading , h2.ff-heading {
+  font-family: var(--font-heading-big);
+  font-weight: var(--font-heading-big-weight);
+  letter-spacing: 5px;
+}
+
+h3, h4, h5, h6,
+.rte h3, .rte h4, .rte h5, .rte h6, 
+.shopify-policy__body h3, .shopify-policy__body h4, .shopify-policy__body h5, .shopify-policy__body h6,
+.ff-subheading {
+  font-family: var(--font-heading-small);
+  font-weight: var(--font-heading-small-weight);
+  letter-spacing: 0;
+}
+
+
+.header__links-list>li {
+    font-family: var(--font-heading-small);
+}
+
+.header__links-list .header__links-icon {
+    margin-top: 0px;
+}
+.btn.btn--primary, .shopify-challenge__button {
+  border: 1px solid;
+}
+
+.btn.btn--secondary, .spr-button-primary {
+      background-color: #fff;
+}
+.btn.btn--primary, .btn.btn--secondary, .btn.btn--tertiary, .spr-button-primary, .spr-summary-actions-newreview, .shopify-challenge__button, .social-share__button,
+.popover .btn.btn--primary, .btn.btn--primary.btn--overlay, .shopify-challenge__button.btn--overlay,
+.btn.btn--secondary.btn--overlay, .spr-button-primary.btn--overlay {
+    color: #27101a;
+    border-color: #27101a;
+    text-transform: uppercase;
+    font-family: var(--font-heading-small);
+    opacity: 1;
+}
+
+.btn.btn--primary:hover, .btn.btn--secondary:hover, .btn.btn--tertiary:hover, .spr-button-primary:hover, .spr-summary-actions-newreview:hover, .shopify-challenge__button:hover, .social-share__button:hover,
+.popover .btn.btn--primary:hover,.popover .btn.btn--primary:not([disabled]):hover, .popover .btn.btn--primary:not([disabled]):focus,
+.btn.btn--secondary.btn--overlay:hover, .spr-button-primary.btn--overlay:hover {
+    color: #fff;
+    border-color: #27101a;
+}
+
+.btn.btn--primary:after, .shopify-challenge__button:after,
+.btn.btn--secondary:before, .spr-button-primary:before,
+.btn.btn--secondary.btn--overlay:before, .spr-button-primary.btn--overlay:before {
+    background: #27101a;
+}
+
+.btn.btn--primary.btn--overlay:before, .shopify-challenge__button.btn--overlay:before {
+  background: #fff;
+}
+
+.btn.btn--primary.btn--overlay:hover:before, .shopify-challenge__button.btn--overlay:hover:before {
+  background: #27101a;
+}

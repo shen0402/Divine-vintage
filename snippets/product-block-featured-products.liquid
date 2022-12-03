@@ -1,0 +1,58 @@
+{%- if block.settings.product_list.count > 0 -%}
+  {% capture content %}
+    <div
+      class="carousel swiper"
+      data-featured-products
+      data-enable-mobile-swiper="{{ block.settings.enable_swiper_mobile }}"
+    >
+      <div class="
+          product__block-featured-products-grid
+          {% if block.settings.enable_swiper_mobile %}
+            product__block-featured-products-grid--has-mobile-swipe
+            {% else %}
+            product__block-featured-products-grid--has-mobile-grid
+          {% endif %}
+          {% if block.settings.display_as_collapsible_row %}
+            product__block-featured-products-grid--is-collapsible-row
+          {% endif %}
+          carousel__wrapper
+          swiper-wrapper
+        ">
+        {%- for product_item in block.settings.product_list -%}
+          <div class="carousel__slide swiper-slide" data-slide>
+            {%
+              render 'product-item' with
+              prod: product_item,
+              aspect_ratio: settings.product_listing_aspect_ratio,
+              quick_view_is_beneath: true
+            %}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  {% endcapture %}
+
+  {% if block.settings.display_as_collapsible_row %}
+    {%-
+      render 'product-block-accordion' with
+      block: block,
+      block_settings: block.settings,
+      classes: 'product__block-featured-products',
+      heading: block.settings.heading,
+      disable_rte: true,
+      content: content,
+    -%}
+  {% else %}
+    <div
+      class="product__block product__block-featured-products product__block--medium"
+      {{ block.shopify_attributes }}
+    >
+      {%- unless block.settings.heading == blank -%}
+        <h3 class="product__block-featured-products__heading ff-heading fs-heading-5-base">
+          {{ block.settings.heading }}
+        </h3>
+      {%- endunless -%}
+      {{ content }}
+    </div>
+  {% endif %}
+{%- endif -%}

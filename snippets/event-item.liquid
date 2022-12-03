@@ -1,0 +1,74 @@
+{%- liquid
+  assign link_element = 'div'
+  unless block.settings.link == blank
+    assign link_element = 'a'
+  endunless
+  unless columns
+    assign columns = 3
+  endunless
+  unless mobile_columns
+    assign mobile_columns = 1
+  endunless
+
+  assign date_badge_month = 'general.month_abbreviations.' | append: block.settings.date_badge_month
+%}
+
+{%- capture image_sizes -%}
+  (min-width: 720px) calc(calc(100vw - calc(2 * clamp(18px, 3.3vw, 3.3vw))) / {{ columns }}), calc(100vw - calc(2 *
+  3.3vw) / {{ mobile_columns }})
+{%- endcapture -%}
+
+<li class="
+    event-item
+    {% if block.settings.image %}event-item--has-image{% endif %}
+  ">
+  <{{ link_element }}
+    {% unless block.settings.link == blank %}
+      href="{{ block.settings.link }}"
+    {% endunless %}
+    class="event-item__link"
+  >
+    <div class="event-item__image-wrapper">
+      {%- unless block.settings.image == blank -%}
+        {%-
+          render 'image' with
+          wrapper_class: "event-item__image",
+          image: block.settings.image,
+          sizes: image_sizes,
+          aspect_ratio: section.settings.aspect_ratio,
+          animate: true
+        -%}
+      {%- endunless -%}
+
+      {%- if block.settings.enable_date_badge -%}
+        <span class="event-item__date-badge">
+          <span class="event-item__date-badge-day fs-body-bold fs-body-200">
+            {{ block.settings.date_badge_day }}
+          </span>
+          <span class="event-item__date-badge-month fs-accent">
+            {{ date_badge_month | t }}
+          </span>
+        </span>
+      {%- endif -%}
+    </div>
+    <div class="event-item__details">
+      {%- unless block.settings.name == blank -%}
+        <h4 class="event-item__name ff-heading fs-heading-5-base">{{ block.settings.name }}</h4>
+      {%- endunless -%}
+      {%- unless block.settings.date == blank -%}
+        <p class="event-item__date fs-body-75">{{ block.settings.date }}</p>
+      {%- endunless -%}
+      {%- unless block.settings.venue == blank -%}
+        <p class="event-item__venue fs-body-75">{{ block.settings.venue }}</p>
+      {%- endunless -%}
+      {%- unless block.settings.summary == blank -%}
+        <div class="event-item__summary rte">{{ block.settings.summary }}</div>
+      {%- endunless -%}
+      {% unless block.settings.link == blank %}
+        <span class="btn btn--callout event-item__callout">
+          <span>{{ 'sections.events.learn_more' | t }}</span>
+        </span>
+      {%- endunless -%}
+    </div>
+  </{{ link_element }}>
+</li>

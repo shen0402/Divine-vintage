@@ -1,0 +1,520 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "block-0": {
+          "type": "slide",
+          "settings": {
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "media_link": "",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Slideshow",
+            "heading_font_class": "fs-heading-display-1",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "block-1": {
+          "type": "slide",
+          "settings": {
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "media_link": "",
+            "text_position": "center_center",
+            "accent": "",
+            "title": "Slideshow",
+            "heading_font_class": "fs-heading-display-1",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "enable_autoplay": true,
+        "duration_autoplay": 6,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#ffffff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "none"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "About us",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "center",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "block-0": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Column with image",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Button",
+            "button_style": "btn--secondary"
+          }
+        },
+        "block-1": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Column with image",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Button",
+            "button_style": "btn--secondary"
+          }
+        },
+        "block-2": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Column with image",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Button",
+            "button_style": "btn--secondary"
+          }
+        },
+        "block-3": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Column with image",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Button",
+            "button_style": "btn--secondary"
+          }
+        },
+        "block-4": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Column with image",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Button",
+            "button_style": "btn--secondary"
+          }
+        },
+        "block-5": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Column with image",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Button",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5"
+      ],
+      "settings": {
+        "title": "Meet the team",
+        "subheading": "",
+        "heading_font_class": "fs-heading-1-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 48,
+        "column_alignment": "left",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 16,
+        "row_spacing_mobile": 48,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "1661612015fe8eae74-0": {
+          "type": "heading",
+          "settings": {
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "6a4f5d32-f759-4a1c-942b-4c3e1f87ecc9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "1661612015fe8eae74-0",
+        "6a4f5d32-f759-4a1c-942b-4c3e1f87ecc9"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "center",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Locations",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "block-1": {
+          "type": "border",
+          "settings": {}
+        },
+        "block-2": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "block-3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Toronto",
+            "subheading_font_class": "fs-heading-4-base"
+          }
+        },
+        "block-4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>123 Queen Street<br\/>Tuesday to Sunday: 9 - 5<br\/>+1 (416) 555-5555<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-5": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Get Directions",
+            "button_style": "btn--callout"
+          }
+        },
+        "block-6": {
+          "type": "spacer",
+          "settings": {
+            "space": 20
+          }
+        },
+        "block-7": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Vancouver",
+            "subheading_font_class": "fs-heading-4-base"
+          }
+        },
+        "block-8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>789 Main Street<br\/>Tuesday to Sunday: 9 - 5<br\/>+1 (604) 555-5555<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-9": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Get directions",
+            "button_style": "btn--callout"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5",
+        "block-6",
+        "block-7",
+        "block-8",
+        "block-9"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "center",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "#f7f7f7",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "block-0": {
+          "type": "text",
+          "settings": {
+            "title": "Name",
+            "required": true,
+            "width": "half"
+          }
+        },
+        "block-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "width": "half"
+          }
+        },
+        "block-2": {
+          "type": "select",
+          "settings": {
+            "title": "Subject",
+            "width": "full",
+            "option_1": "Option one",
+            "option_2": "Option two",
+            "option_3": "Option three",
+            "option_4": "",
+            "option_5": "",
+            "option_6": "",
+            "option_7": "",
+            "option_8": "",
+            "option_9": "",
+            "option_10": ""
+          }
+        },
+        "block-3": {
+          "type": "text",
+          "settings": {
+            "title": "Phone number",
+            "required": false,
+            "width": "full"
+          }
+        },
+        "block-4": {
+          "type": "text_area",
+          "settings": {
+            "title": "Message",
+            "placeholder": "Your message",
+            "required": true,
+            "height": 180,
+            "width": "full"
+          }
+        },
+        "block-5": {
+          "type": "submit",
+          "settings": {
+            "title": "Submit",
+            "size": "large",
+            "full_width": true
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "heading": "Contact us",
+        "heading_font_class": "fs-heading-2-base",
+        "text": "",
+        "show_recaptcha_terms": true,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow",
+    "image-with-text-1",
+    "multi-column",
+    "image-with-text-2",
+    "image-with-text-3",
+    "contact-form"
+  ]
+}

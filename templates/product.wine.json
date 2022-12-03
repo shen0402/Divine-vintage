@@ -1,0 +1,177 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": false,
+            "show_vendor": false,
+            "show_sku": true,
+            "show_discount": true,
+            "discount_format": "percent_off",
+            "show_product_rating": false,
+            "show_sale_badge": true,
+            "show_custom_badges": true
+          }
+        },
+        "55bc5759-baa3-4a9f-908c-a1faec003bdf": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p>{{ product.metafields.custom.short_text.value }}<\/p>",
+            "column_placement": "right"
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "disabled": true,
+          "settings": {
+            "icon_1": "leaf",
+            "text_1": "Vegan",
+            "icon_2": "model-silhouette",
+            "text_2": "Unfiltered",
+            "icon_3": "heart",
+            "text_3": "Organic",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "f622c37c-c3e4-4bad-aa10-1984b667e7ed": {
+          "type": "product_callouts",
+          "settings": {
+            "title": "",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "none",
+            "text_1": "<p><strong>Origin -<\/strong> {{ product.metafields.custom.wine_origin | metafield_tag }}<\/p>",
+            "icon_2": "none",
+            "text_2": "<p><strong>Region -<\/strong> {{ product.metafields.custom.wine_region.value }}<\/p>",
+            "icon_3": "none",
+            "text_3": "<p><strong>Grape -<\/strong> {{ product.metafields.custom.wine_varietal.value }}<\/p>",
+            "icon_4": "none",
+            "text_4": "<p><strong>Style -<\/strong> {{ product.metafields.custom.wine_style.value }}<\/p>",
+            "icon_5": "none",
+            "text_5": "<p><strong>Pairing -<\/strong> {{ product.metafields.custom.wine_pairing.value }}<\/p>",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "57afe60c-47ad-4866-83ce-a65b9f3d3114": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "inventory_counter": {
+          "type": "inventory-counter",
+          "disabled": true,
+          "settings": {
+            "label": "Availability",
+            "inventory_max": "{{ product.metafields.custom.inventory_base_quantity.value }}",
+            "low_inventory_threshold": "100",
+            "show_status_bar": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "title": "Description",
+            "text_font_class": "fs-body-75",
+            "column_placement": "right",
+            "display_as_collapsible_row": true,
+            "expand_by_default": false
+          }
+        },
+        "30a8d7be-7efb-4f63-916c-10f729c97089": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "Shipping & Returns",
+            "content": "<p><strong>Shipping <\/strong>we offer free 3 day shipping on all products.<br\/>Next day shipping is available at an additional cost and may be calculated at checkout.ollapsible row content here.<\/p><p><strong>Free Returns<\/strong> on all items if returned unworn in original packing including all labels. We regret that we can not accept returns on items that have been used. If you are unhappy with your purchase or would like to return item, contact us and we will arrange pickup at our cost.<\/p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_header",
+        "55bc5759-baa3-4a9f-908c-a1faec003bdf",
+        "product_callouts_mini",
+        "f622c37c-c3e4-4bad-aa10-1984b667e7ed",
+        "quantity_selector",
+        "57afe60c-47ad-4866-83ce-a65b9f3d3114",
+        "buy_buttons",
+        "inventory_counter",
+        "description",
+        "30a8d7be-7efb-4f63-916c-10f729c97089",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": true,
+        "show_navigation_buttons": false,
+        "gallery_style": "thumbnails",
+        "gallery_size": "small",
+        "gallery_overflow": "never",
+        "enable_video_looping": true,
+        "enable_product_lightbox": false,
+        "image_aspect_ratio": "portrait",
+        "enable_animation": true,
+        "sub_heading": "Select your subscription:",
+        "sub_desc": "<p>Choose your commitment. Billings are based on subscription term.<\/p>",
+        "sub_1_title": "1 Month",
+        "sub_1_desc": "<p>Delivery every 1 Month<\/p>",
+        "sub_3_title": "3 Month",
+        "sub_3_desc": "<p>Delivery every 1 Month, Charge every 3 Months<\/p>",
+        "sub_6_title": "6 Month",
+        "sub_6_desc": "<p>Delivery every 1 Month, Charge every 6 Months<\/p>",
+        "sub_12_title": "12 Month",
+        "sub_12_desc": "<p>Delivery every 1 Month, Charge every 12 Months<\/p>"
+      }
+    },
+    "acab2b09-22a6-424f-86b9-66fa22f1c133": {
+      "type": "recommended-products",
+      "settings": {
+        "title": "YOU MAY ALSO LIKE",
+        "subheading": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "acab2b09-22a6-424f-86b9-66fa22f1c133"
+  ]
+}

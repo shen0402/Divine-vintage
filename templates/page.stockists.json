@@ -1,0 +1,388 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "image-hero": {
+      "type": "image-hero",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Stockists",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 55,
+        "mobile_height": 65,
+        "focal_point": "center",
+        "mobile_focal_point": "center",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "multi-column-1": {
+      "type": "multi-column",
+      "blocks": {
+        "block-0": {
+          "type": "column",
+          "settings": {
+            "accent": "Store name",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Go to site",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-1": {
+          "type": "column",
+          "settings": {
+            "accent": "Store name",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Go to site",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-2": {
+          "type": "column",
+          "settings": {
+            "accent": "Store name",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Go to site",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-3": {
+          "type": "column",
+          "settings": {
+            "accent": "Store name",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Go to site",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-4": {
+          "type": "column",
+          "settings": {
+            "accent": "Store name",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Go to site",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-5": {
+          "type": "column",
+          "settings": {
+            "accent": "Store name",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Go to site",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-6": {
+          "type": "column",
+          "settings": {
+            "accent": "Store name",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Go to site",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-7": {
+          "type": "column",
+          "settings": {
+            "accent": "Store name",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "Go to site",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5",
+        "block-6",
+        "block-7"
+      ],
+      "settings": {
+        "title": "Online",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "4",
+        "column_spacing": 24,
+        "row_spacing": 48,
+        "column_alignment": "left",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 12,
+        "row_spacing_mobile": 48,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi-column-2": {
+      "type": "multi-column",
+      "blocks": {
+        "block-0": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Store 1",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>123 Queen Street<br\/>Toronto, ON <br\/>M1R 0E9<br\/>Canada<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link_text": "Get Directions",
+            "button_style": "btn--secondary"
+          }
+        },
+        "block-1": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Store 2",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>789 Main Street<br\/>Vancouver, BC <br\/>V9A 4J3<br\/>Canada<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link_text": "Get Directions",
+            "button_style": "btn--secondary"
+          }
+        },
+        "block-3": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Store 3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>123 Fake Street<br\/>Vancouver, BC<br\/>V8X 3K1<br\/>United States<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link_text": "Get Directions",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-3"
+      ],
+      "settings": {
+        "title": "Retail stores",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 48,
+        "column_alignment": "left",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 12,
+        "row_spacing_mobile": 48,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi-column-3": {
+      "type": "multi-column",
+      "blocks": {
+        "block-0": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-1": {
+          "type": "image_column",
+          "settings": {
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-2": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p><strong>Location<\/strong><span style=\"text-decoration:underline\"><br\/><\/span>1234 Pretend Street, <br\/>Abbotsford 3000, VIC<br\/>Australia<br\/><br\/><strong>Hours<\/strong><span style=\"text-decoration:underline\"><br\/><\/span>Monday - Sunday 11 am - 7pm<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link_text": "Get Directions",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "title": "Main store",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-hero",
+    "multi-column-1",
+    "multi-column-2",
+    "multi-column-3"
+  ]
+}
