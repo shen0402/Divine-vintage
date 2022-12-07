@@ -16,7 +16,7 @@
           {%- for item in cart.items -%}
             <div class='cart__form-item' data-input-item data-id="{{ item.id }}">
               <div class='cart__form-item-image'>
-                <a href="{{ item.url }}" class="cart__form-item-link">
+                <a {% if item.product.tags contains 'wine-club' %}{% else %}href="{{ item.url }}"{% endif %} class="cart__form-item-link">
                   {%- render 'image' with
                     image: item.image,
                     sizes: "120px",
@@ -30,7 +30,7 @@
                 <div class='cart__form-item-info-wrapper'>
                   <div class="cart__form-item-info">
                     <h4 class="cart__form-item-title fs-product-card-title">
-                      <a href="{{ item.url }}">{{ item.product.title }}</a>
+                      <a {% if item.product.tags contains 'wine-club' %}{% else %}href="{{ item.url }}"{% endif %}>{{ item.product.title }}</a>
                     </h4>
 
                     {% unless item.product.has_only_default_variant %}
@@ -47,14 +47,18 @@
                       <div class="cart__form-item-properties fs-body-60 t-opacity-80">
                         {% for p in item.properties %}
                           {% unless p.last == blank %}
-                          <p>{{ p.first }}:
+                            {%- if p.first == '_last_month' -%}
+                              <p>{{ p.last }}</p>
+                            {%- else -%}
+                              <p>{{ p.first }}:
 
-                          {% if p.last contains '/uploads/' %}
-                            <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
-                          {% else %}
-                            {{ p.last }}
-                          {% endif %}
-                          </p>
+                                {% if p.last contains '/uploads/' %}
+                                  <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
+                                {% else %}
+                                  {{ p.last }}
+                                {% endif %}
+                              </p>
+                            {%- endif -%}
                           {% endunless %}
                         {% endfor %}
                       </div>

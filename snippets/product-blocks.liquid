@@ -21,7 +21,7 @@
   {% if renderBlock == true %}
     {%- case block.type -%}
       {%- when '@app' -%}
-        {%- unless product.metafields.custom.subscription_3_months != blank -%}
+        {%- unless product.metafields.custom.subscription_3_months_not_prepaid != blank -%}
           {% render block %}
         {% endunless %}
       {%- when 'product_header' -%}
@@ -106,6 +106,7 @@
          content: block.settings.text
          , block_settings: block.settings
          , block: block
+         , current_variant: current_variant
          , %}
 
       {%- when 'share' -%}
@@ -171,10 +172,10 @@
 
       {%- when 'image' -%}
         <div class="
-                                                                                                                        product-block-image
-                                                                                                                        product__block
-                                                                                                                        product__block--medium
-                                                                                                                      ">
+                                                                                                                                                product-block-image
+                                                                                                                                                product__block
+                                                                                                                                                product__block--medium
+                                                                                                                                              ">
           {%-
             render 'image-block' with
             shopify_attributes: block.shopify_attributes
